@@ -1,72 +1,100 @@
-		* {
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-  			font-family: "Gruppo", sans-serif;
-		}
+html {
+	scroll-behavior: smooth;
+}
 
-		h1, h2, .nav-link {
-			font-family: "Krona One", sans-serif;
-		}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Gruppo", sans-serif;
+}
 
-		p {
-			font-size: 20px;
-		}
+h1, h2, .nav-link {
+	font-family: "Krona One", sans-serif;
+}
 
-		.navbar {
-			background: #236575;
-		}
+p {
+	font-size: 20px;
+}
 
-		.nav-link {
-			font-size: .95rem;
-		}
+.navbar {
+	background: #236575;
+}
 
-		#Landing {
-			background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url("./images/landing-bg.jpg") no-repeat center / cover fixed;
-			padding-top: 56px;
-		}
+.navbar-brand {
+	font-weight: 800;
+    font-size: 1.4rem;
+    background: #1b5361;
+    padding: 0 20px;
+    letter-spacing: .25rem;
+}
 
-		#Landing .profile {
-			width: 100%;
-			max-width: 400px;
-		}
+.navbar-brand:hover {
+	transition: .3s;
+	transform: scale(1.05);
+}
 
-		h2.subHead {
-			color: #236575;
-		}
+.nav-link {
+	font-size: .95rem;
+}
 
-		#Projects .modal-dialog {
-			max-width: 1200px;
-		}
+.container-fluid {
+	overflow: hidden;
+}
 
-		.projectThumb {
-			cursor: pointer;
-			transition: .3s;
-			border: 1px solid #ccc;
-		}
+#Landing {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url("./images/landing-bg.jpg") no-repeat center / cover fixed;
+	padding-top: 56px;
+}
 
-		.projectThumb:hover {
-			opacity: .75;
-		}
+#Landing .profile {
+	width: 100%;
+	max-width: 400px;
+}
 
-		#Tools {
-			background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("./images/landing-bg.jpg") no-repeat center / cover;
-		}
+h2.subHead {
+	color: #236575;
+}
 
-		.icons img {
-			max-width: 120px;
-		}
+#Projects .modal-dialog {
+	max-width: 1200px;
+}
 
-		label {
-			font-size: 1rem;
-			font-weight: 700;
-		}
+.projectThumb {
+	cursor: pointer;
+	transition: .3s;
+	border: 1px solid #ccc;
+	opacity: .9;
+}
 
-		button.btn.btn-secondary {
-			background: #236575;
-			border: none;
-		}
+.projectThumb:hover {
+	opacity: 1;
+	transform: scale(1.05);
+}
 
-		#Contact {
-			background: linear-gradient(to bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("./images/landing-bg.jpg") no-repeat center / cover;
-		}
+#Tools {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("./images/landing-bg.jpg") no-repeat center / cover;
+}
+
+.icons img {
+	max-width: 120px;
+}
+
+label {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+button.btn.btn-secondary {
+	background: #236575;
+	border: none;
+}
+
+button:hover {
+	transition: .3s;
+	transform: scale(1.05);
+}
+
+#Contact {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("./images/landing-bg.jpg") no-repeat top / cover;
+}
