@@ -1,0 +1,72 @@
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+  			font-family: "Gruppo", sans-serif;
+		}
+
+		h1, h2, .nav-link {
+			font-family: "Krona One", sans-serif;
+		}
+
+		p {
+			font-size: 20px;
+		}
+
+		.navbar {
+			background: #236575;
+		}
+
+		.nav-link {
+			font-size: .95rem;
+		}
+
+		#Landing {
+			background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url("./images/landing-bg.jpg") no-repeat center / cover fixed;
+			padding-top: 56px;
+		}
+
+		#Landing .profile {
+			width: 100%;
+			max-width: 400px;
+		}
+
+		h2.subHead {
+			color: #236575;
+		}
+
+		#Projects .modal-dialog {
+			max-width: 1200px;
+		}
+
+		.projectThumb {
+			cursor: pointer;
+			transition: .3s;
+			border: 1px solid #ccc;
+		}
+
+		.projectThumb:hover {
+			opacity: .75;
+		}
+
+		#Tools {
+			background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("./images/landing-bg.jpg") no-repeat center / cover;
+		}
+
+		.icons img {
+			max-width: 120px;
+		}
+
+		label {
+			font-size: 1rem;
+			font-weight: 700;
+		}
+
+		button.btn.btn-secondary {
+			background: #236575;
+			border: none;
+		}
+
+		#Contact {
+			background: linear-gradient(to bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("./images/landing-bg.jpg") no-repeat center / cover;
+		}
